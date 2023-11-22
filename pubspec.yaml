@@ -1,0 +1,67 @@
+name: taxi_booking
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  get: ^4.3.8
+  ## save user data
+  get_storage: ^2.0.3
+  ## Svg assets
+  flutter_svg: ^2.0.2
+  ## For device info
+  device_info_plus: ^8.1.0
+  ## Network supporting libraries
+  http: ^0.13.3
+  ## multipart image
+  dio: ^5.0.1
+  ## Network connection check
+  connectivity: ^3.0.6
+  ## Month and year picker only
+  month_picker_dialog: ^2.0.2
+  ## DateFormat
+  intl: ^0.18.1
+  carousel_slider: ^4.0.0
+  fluttertoast: ^8.0.8
+  flutter_switch: ^0.3.2
+  image_picker: ^0.8.4+11
+  image_cropper: ^3.0.1
+  google_maps_flutter: ^2.1.2
+  location: ^5.0.3
+  custom_info_window: ^1.0.1
+  dotted_line: ^3.1.0
+  slide_to_confirm: ^1.1.0
+  country_code_picker: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins/Poppins-Bold.ttf
+        - asset: assets/fonts/Poppins/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins/Poppins-Medium.ttf
+        - asset: assets/fonts/Poppins/Poppins-SemiBold.ttf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
