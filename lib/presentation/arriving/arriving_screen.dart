@@ -35,7 +35,7 @@ class ArrivingScreen extends StatelessWidget {
                     mapType: _con.currentMapType,
                     onMapCreated: _con.onMapCreated,
                     initialCameraPosition: const CameraPosition(
-                        target: LatLng(21.215341, 72.8880675
+                        target: LatLng(22.307159, 73.181221
                             // _con.locationData!.latitude!,
                             // _con.locationData!.longitude!,
                             ),

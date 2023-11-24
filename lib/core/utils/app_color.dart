@@ -2,9 +2,9 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static Color primaryColor = fromHex('#FFCE2F');
-  static Color appColor = fromHex('#FFCE2F');
-  static Color lightappColor = fromHex('#FFF5D5');
+  static Color primaryColor = fromHex('#E4002B');
+  static Color appColor = fromHex('#E4002B');
+  static Color lightappColor = fromHex('#f28095');
   static Color borderColor = fromHex('#E0E4F5');
   static Color secondaryColor = fromHex('#261854');
   static Color textGreyColor = fromHex('#8B8989');
@@ -12,6 +12,7 @@ class AppColors {
   static Color numColor = fromHex('#5A6274');
   static Color appIconColor = fromHex('#B8BABF');
   static Color textBlackColor = fromHex('#0F0B03');
+  static Color textWhiteColor = fromHex('#FFFFFF');
   static Color lightBlue = fromHex('#F4F5FA');
   static Color cyanColor = fromHex('#4DEEEC');
   static Color gradient1 = fromHex('#22B0FF');

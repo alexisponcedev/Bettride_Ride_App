@@ -39,9 +39,9 @@ class ChooseTripScreen extends StatelessWidget {
                       onMapCreated: _con.onMapCreated,
                       initialCameraPosition: CameraPosition(
                           target: LatLng(
-                            // 21.215341, 72.8880675
-                            _con.locationData!.latitude!,
-                            _con.locationData!.longitude!,
+                            22.307159, 73.181221,
+                            //_con.locationData!.latitude!,
+                            //_con.locationData!.longitude!,
                           ),
                           zoom: 11),
                     ),
