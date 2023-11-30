@@ -1,3 +1,4 @@
+name: Build app
 on: push
 jobs: 
   build-and-test: 
